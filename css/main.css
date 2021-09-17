@@ -15,7 +15,14 @@
     margin-bottom: 30px;
 }
 
+/* HEADER */
 header {
     height: 100px;
     background: #E579E6;
 }
+
+.container > .image {
+    height: 300px;
+    background: #E1D67A;
+}
+
