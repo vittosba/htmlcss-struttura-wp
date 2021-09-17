@@ -11,8 +11,22 @@
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .mb-30 {
     margin-bottom: 30px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.bg-type-1 {
+    background: #ABCFE7;
 }
 
 /* HEADER */
@@ -26,3 +40,29 @@ header {
     background: #E1D67A;
 }
 
+/* MAIN */
+main {
+    background: #2089F7;
+}
+/* Header Main */
+.header-main {
+    height: 50px;
+}
+
+/* Main Content */
+.sidebar,
+.main-content {
+    float: left;
+}
+
+.sidebar {
+    height: 300px;
+    width: 20%;
+}
+
+.main-content {
+    height: 300px;
+    width: calc(60% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+}
