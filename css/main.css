@@ -35,6 +35,7 @@ header {
     background: #E579E6;
 }
 
+/* IMAGE */
 .container > .image {
     height: 300px;
     background: #E1D67A;
@@ -65,4 +66,10 @@ main {
     width: calc(60% - 30px);
     margin-left: 15px;
     margin-right: 15px;
+}
+
+/* FOOTER */
+footer {
+    height: 50px;
+    background: #8D52FC;
 }
