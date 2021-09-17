@@ -10,3 +10,12 @@
     width: 80%;
     margin: 0 auto;
 }
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+header {
+    height: 100px;
+    background: #E579E6;
+}
